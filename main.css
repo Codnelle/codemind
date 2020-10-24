@@ -1,0 +1,46 @@
+.editor{
+ height: 100%;
+ width: 170vh;
+ 
+}
+.s1{
+height: 95vh;
+}
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+.footer{
+  height: 80px;
+}
+.img{
+   width: 60px;
+}
+.qs{
+  height: 20vh;
+  position: relative;
+  transform: translate(0.5vh,6vh);
+  font-size: 4vh;
+  
+}
+.next{
+  font-size: 170%;
+  background-color: rgb(1, 1, 82);
+  color: white;
+  padding: 4px;
+  border-radius: 6rem;
+  transform: translateX(90vh);
+  width: 20vh;
+  
+
+}
